@@ -57,3 +57,70 @@ a {
 .nav__contacts img {
     margin: 0 2px;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 136px;
+    position: relative;
+}
+
+.hero__subheader {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: #91FAA8;
+    cursor:pointer;
+}
+
+.hero__header {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    margin-top: 32px;
+}
+
+.screw {
+    position: absolute;
+    top: 143px;
+    left: 420px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+.hero__descr {
+    margin-top: 40px;
+}
+
+.hero__button__wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    background: #FFFFFF;
+    border-radius: 100px;
+    padding: 12px 24px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:  #231B1B;
+    text-transform: uppercase;
+
+}
+
+.btn-transparent {
+    border: 1px solid #FFFFFF;
+    color: var(--color-body);
+    background: transparent;
+}
