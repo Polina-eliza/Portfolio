@@ -1,0 +1,59 @@
+:root {
+    --color-body: #FFFFFF; 
+    --color-background: #1E1E1E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+    color: var(--color-body);
+    background: var(--color-background);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+}
+
+.container {
+    padding: 0 120px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav__logo {
+    margin-right: 246px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav__contacts img {
+    margin: 0 2px;
+}
