@@ -314,6 +314,7 @@ img {
   .container__mini {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 24px; 
+    padding: 64px;
   }
 
   .icons__container {
@@ -413,3 +414,27 @@ img {
         padding: 24px;
     }
   }
+
+  .projects {
+    margin-top: 96px;
+  }
+
+  .tools {
+    margin-top: 16px;
+  }
+
+  .tools span {
+    font-weight: 700;
+  }
+
+  .projects__link__wrapper {
+    margin-top: 40px;
+  }
+
+  .github__link {
+    color: var(--color-body);
+    background: transparent;
+    cursor: pointer;
+    border: solid 1px var(--color-body);
+    margin-left: 8px;
+}
