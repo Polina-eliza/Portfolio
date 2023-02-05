@@ -110,12 +110,24 @@ img {
 .nav__logo {
     font-weight: 700;
     font-size: 24px;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .nav__contacts img {
     width: 30px;
     cursor: pointer;
+}
+
+.navbar__item a {
+    transition: color .4s;
+}
+
+.navbar__item a:hover {
+    color: #FA91C3;
+  }
+
+.navbar__item.active a {
+    color: #FA91C3;
 }
 
 .hero {
@@ -164,30 +176,49 @@ img {
     margin-top: 40px;
 }
 
-.hero__button__wrapper {
-    display: flex;
+.hero__button__wrapper{
+    display: inline-flex;
     gap: 12px;
+    
 }
 
 .btn {
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 8px 17px;
     border: none;
     margin-top: 40px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
     color:  #231B1B;
     text-transform: uppercase;
-
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
-.btn-transparent {
-    border: 1px solid #FFFFFF;
+.link__about {
     color: var(--color-body);
     background: transparent;
+    cursor: pointer;
 }
+
+.link__about img {
+    width: 24px;
+    transition: transform .3s;
+}
+
+.link__about:hover {
+    color:#FA91C3;
+}
+
+
+.btn__in__touch:hover {
+    background:#FA91C3;;
+}
+
+.btn.link__about:hover img {
+    transform: translateY(-5px);
+  }
 
 .hamburger {
     display: none;
@@ -274,13 +305,15 @@ img {
 
   .skills__wrapper {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     padding: 64px;
+    gap: 90px;
+  }
+
+  .container__mini {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 24px; 
-    gap: 90px;
-
   }
 
   .icons__container {
@@ -288,7 +321,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
   }
 
   .skills {
@@ -378,6 +411,5 @@ img {
     .skills__wrapper {
         flex-direction: column-reverse;
         padding: 24px;
-
     }
   }
