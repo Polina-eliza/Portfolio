@@ -86,8 +86,7 @@ img {
     .container {
     padding: 0 24px;
     }
-    
-    
+        
 }
 
 .navbar {
@@ -116,6 +115,7 @@ img {
 
 .nav__contacts img {
     width: 30px;
+    cursor: pointer;
 }
 
 .hero {
@@ -160,7 +160,7 @@ img {
     to{ transform: rotate(360deg); }
 }
 
-.hero__descr {
+.descr-hero {
     margin-top: 40px;
 }
 
@@ -261,4 +261,126 @@ img {
         display: none;
     }
 
+  }
+
+  .icon__box img {
+    min-width: 44px;
+    padding: 10px;
+  }
+  
+  .icon__box {
+    width: 76px;
+  }
+
+  .skills__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 24px; 
+    gap: 90px;
+
+  }
+
+  .icons__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skills {
+    margin-top: 96px;
+  }
+
+  .html__img {
+    background: rgba(227, 79, 38, 0.27);
+    border-radius: 10px 10px 0px 10px;
+  }
+
+  .css__img {
+    background: rgba(27, 115, 186, 0.22);
+    border-radius: 0px 20px 20px 20px;
+  }
+
+  .javascript__img {
+    background: rgba(240, 219, 79, 0.08);
+    border-radius: 10px 0px 10px 10px;
+  }
+
+  .react__img {
+    background: rgba(97, 218, 251, 0.1);
+    border-radius: 100px;
+  }
+
+  .sass__img {
+    background: rgba(196, 96, 146, 0.26);
+    border-radius: 20px;
+  }
+
+  .bootstrap__img {
+    background: rgba(121, 82, 179, 0.22);
+    border-radius: 10px 10px 10px 0px;
+  }
+
+  .thailwind__img {
+    background: rgba(24, 186, 185, 0.13);
+    border-radius: 100px;
+  }
+
+  .git__img {
+    background: rgba(222, 76, 54, 0.14);
+    border-radius: 100px;
+  }
+
+  .github__img {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px 20px 0px 20px;
+  }
+
+  .npm__img {
+    background: rgba(203, 55, 58, 0.16);
+    border-radius: 0px 20px;
+  }
+
+  .google__img {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+  }
+  
+  .browser__img {
+    background: rgba(146, 255, 248, 0.16);
+    border-radius: 1000px;
+  }
+
+  .api__img {
+    background: rgba(30, 30, 30, 0.21);
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .responsive__img {
+    background: rgba(255, 53, 198, 0.12);
+    border-radius: 20px 20px 0px 20px;
+  }
+
+  .descr {
+    margin-top: 16px;
+  }
+
+  .title {
+    margin-top: 16px;
+  }
+
+  @media (max-width: 992px) {
+
+    .skills__wrapper {
+        flex-direction: column-reverse;
+        padding: 24px;
+
+    }
+    
+
+    
   }
