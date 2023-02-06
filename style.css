@@ -507,7 +507,7 @@ margin-top: 64px;
 @media (max-width: 992px) {
   .about__wrapper {
     flex-direction: column;
-    padding: 24px;
+    padding: 16px;
     margin-top: 24px;
   }
 
