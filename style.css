@@ -105,6 +105,7 @@ img {
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
+    transition: color .4s;
 }
 
 .nav__logo {
@@ -116,10 +117,6 @@ img {
 .nav__contacts img {
     width: 30px;
     cursor: pointer;
-}
-
-.navbar__item a {
-    transition: color .4s;
 }
 
 .navbar__item a:hover {
@@ -192,6 +189,7 @@ img {
     font-size: 16px;
     color:  #231B1B;
     text-transform: uppercase;
+    display: inline-block;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -437,4 +435,55 @@ img {
     cursor: pointer;
     border: solid 1px var(--color-body);
     margin-left: 8px;
+}
+
+
+
+/* About page */
+
+.about {
+margin-top: 64px;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+.about__me:first-child {
+  width: 70%;
+}
+
+.about__contact {
+  margin-top: 40px;
+}
+
+.about__subtitle {
+  font-weight: 700;
+}
+
+.about__subtitle-me {
+  margin-top: 40px;
+}
+
+.about__descr {
+  margin-top: 16px;
+}
+
+.experience__wrapper {
+  margin-top: 40px;
+}
+
+.btn__cv {
+  margin-top: 40px;
+}
+
+.divider {
+  display: block;
+  width: 2px;
+  height: 568px;
+  border-radius: 100px;
+  background-color: var(--color-body);
 }
