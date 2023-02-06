@@ -646,4 +646,8 @@ margin-top: 64px;
   .container__mini {
     padding: 16px;
   }
+
+  .footer {
+    font-size: 14px;
+  }
 }
