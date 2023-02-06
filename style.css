@@ -507,7 +507,6 @@ margin-top: 64px;
 @media (max-width: 992px) {
   .about__wrapper {
     flex-direction: column;
-    padding: 16px;
     margin-top: 24px;
   }
 
@@ -517,5 +516,9 @@ margin-top: 64px;
 
   .btn__in__touch {
     margin-left: 24px;
+  }
+
+  .container__mini {
+    padding: 16px;
   }
 }
