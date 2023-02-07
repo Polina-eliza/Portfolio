@@ -738,3 +738,50 @@ margin-top: 64px;
     font-size: 14px;
   }
 }
+
+
+/* Case's section */
+
+.case {
+  margin-top: 96px;
+}
+
+.case__wrapper {
+  margin-top: 64px;
+}
+
+ .go__back img {
+  transform: translateY(-2px);
+  vertical-align: middle;
+  transition: transform .3s;
+}
+
+
+
+.go__back:hover img {
+  transform: translate(-10px, -2px);
+}
+
+
+
+
+/* .learn__more {
+  cursor: pointer;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.learn__more img {
+  width: 24px;
+  transform: translateY(6px);
+  transition: transform .3s;
+}
+
+.learn__more:hover {
+  color: var(--color-accent);
+  transition: all 300ms ease;
+}
+
+.learn__more:hover img {
+  transform: translate(5px, 6px);
+} */
