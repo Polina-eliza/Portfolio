@@ -712,7 +712,7 @@ margin-top: 64px;
 .divider {
   display: block;
   width: 2px;
-  height: 568px;
+  height: 100%;
   border-radius: 100px;
   background-color: var(--color-body);
   position: absolute;
@@ -737,9 +737,4 @@ margin-top: 64px;
   .footer {
     font-size: 14px;
   }
-}
-
-
-.contact__page {
-  margin-top: 170px;
 }
