@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Polina Lipse</title>
+    <title>Polina Lipse: Front-End Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,14 +14,14 @@
                     <ul class="navbar__list">
                         <li class="navbar__item"><a href="index.html">Projects</a></li>
                         <li class="navbar__item"><a href="about.html">About</a></li>
-                        <li class="navbar__item"><a href="#">Contact</a></li>
+                        <li class="navbar__item"><a href="contact.html">Contact</a></li>
                     </ul>
                     <div class="hamburger">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
                        </div>
-                    <div class="nav__logo">Poli-po</div>
+                       <a href="index.html" class="nav__logo">Poli-po</a>
                     <div class="nav__contacts">
                             <a href="https://github.com/Polina-eliza" target="_blank"><img src="icons/github.svg" alt="github"></a>
                             <a href=""></a><img src="icons/linkedin.svg" alt="linkedin">
@@ -31,7 +31,7 @@
     </header>
    
 
-    <div class="about container">
+    <section class="about container">
         <h3 class="subtitle subtitle-projects">&lt;about me&gt;</h3>
                 <h2 class="title title-projects">Hi, I'm Polina Lipse</h2>
                 <p class="descr descr-projects">I’m a lifelong learner who is enjoying the combination of logical thinking and creativity</p>
@@ -74,7 +74,33 @@
                         <a class="btn btn__in__touch">Get in touch</a>
                     </div>
                 </div>
-    </div>
+    </section>
+    <section class="contact container">
+        <h2 class="title title-contact">Let's chat!</h2>
+        <p class="descr descr-contact">Have an exciting project where you need some help? <br>
+            Send me over a message, and let’s discuss it.</p>
+            <form id="contact-form" action="#" class="contact__form">
+                    <div class="input__wrapper top left">
+                        <label for="name" class="label">Full Name</label>
+                        <input id="name" type="text" class="input__field" placeholder="Enter your name">
+                        </div>
+                        <div class="input__wrapper top right">
+                        <label for="email" class="label">Email</label>
+                        <input id="email" type="email" class="input__field" placeholder="Enter your email">
+                        </div>
+                        <div class="input__wrapper input__wrapper-long bottom">
+                        <label for="message" class="label">What would you like to discuss?</label>
+                        <textarea id="message" type="text" class="input__field input__field-long" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button class="btn btn-submit" type="submit" value="submit">Send</button>
+            </form>
+    </section>
+    <footer class="footer">
+        <div class="copyright">
+            Developed by Polina Lipse - 2023 copyright
+        </div>
+    </footer>
+    
 
     <script src="script.js"></script>
     
